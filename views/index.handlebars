@@ -1,13 +1,23 @@
+
 <!doctype html>
+
 
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="public/css/bootstrap-theme.css"></link>
+	<link rel="stylesheet" type="text/css" href="public/css/bootstrap.css"></link>
+	<link rel="stylesheet" type="text/css" href="public/css/hci-friends.css"></link>
+	<script src="public/js/jquery-1.11.0.js"></script>
+	<script src="public/js/hci-friends.js"></script>
+	<script src="public/js/bootstrap.js"></script>
+	<script src="public/routes/index.js"></script>
 	<title>My HCI Friends</title>	
 	<meta charset="utf-8">
 	
 </head>
-
+<div class="container">
 <body>
+	
 	<h1>My HCI Friends</h1>
 
 	<form id="addFriendForm" role="form" method="get" action="/add">
@@ -22,5 +32,7 @@
 	    </div>
 	    <input type="submit" id="submitBtn" class="btn btn-default" value="Add the friend"></input>
 	</form>
+	
 </body>
+</div>
 </html>
